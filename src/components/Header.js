@@ -7,7 +7,8 @@ const Header = () => {
     <header>
       <div className="headerText">
         <h1>Meblex</h1>
-        <p>Najnowsze trędy, najlepsza jakość</p>
+        <h2>Najnowsze trędy</h2>
+        <h3>Najlepsza jakość</h3>
       </div>
       <i className="fas fa-bars menuIcon"></i>
       <nav className="headerNavigation">
