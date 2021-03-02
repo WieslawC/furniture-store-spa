@@ -30,14 +30,53 @@
       top: 5vw;
       right: 5vw;
       padding: 5px;
-      border: 3px dotted #555;
-      border-radius: 50%;
-      font-size: 20px;
+      font-size: 25px;
+      color: #333;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    .headerNavigation {
+      position: fixed;
+      top: 0;
+      right: -100vw;
+      height: 100vh;
+      width: 100vw;
+      background-color: green;
+      transition: 0.3s ease;
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        list-style: none;
+        li {
+          a {
+            width: 100vw;
+            padding: 30px 0;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            color: #333;
+            cursor: pointer;
+            &:hover {
+              background-color: white;
+            }
+          }
+        }
+      }
+    }
+    .headerNavigation.active {
+      right: 0;
     }
   }
 }
 
-/* 
+/*
+@media only screen and (min-width: 320px) {
+}
+ 
 @media only screen and (min-width: 600px) {
 }
 
