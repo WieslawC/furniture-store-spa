@@ -6,8 +6,9 @@
     color: black;
     .headerText {
       position: absolute;
-      top: 50%;
+      top: 0;
       left: 50%;
+      animation: moveHeaderText 1s forwards;
       transform: translate(-50%, -50%);
       text-align: center;
       h1 {
@@ -47,6 +48,7 @@
       width: 100vw;
       background-color: #f5bd42;
       transition: 0.3s ease;
+      z-index: 2;
       ul {
         display: flex;
         flex-direction: column;
@@ -73,6 +75,15 @@
     .headerNavigation.active {
       right: 0;
     }
+  }
+}
+
+@keyframes moveHeaderText {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
   }
 }
 
