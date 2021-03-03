@@ -15,6 +15,12 @@ class App extends Component {
     $("a").each(function (item) {
       $(this).on("click", () => {
         $(".headerNavigation").toggleClass("active");
+        $([document.documentElement, document.body]).animate(
+          {
+            scrollTop: $("header").offset().top,
+          },
+          1000
+        );
       });
     });
 

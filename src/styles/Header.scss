@@ -11,14 +11,23 @@
       animation: moveHeaderText 1s forwards;
       transform: translate(-50%, -50%);
       text-align: center;
+      overflow: hidden;
       h1 {
         padding-bottom: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         letter-spacing: 2px;
         text-transform: uppercase;
-        border-bottom: 2px solid;
+        // border-bottom: 2px solid;
       }
-
+      .titleUnderline {
+        position: relative;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        margin-bottom: 40px;
+        background-color: black;
+        animation: moveTitleUnderline 1s 1s forwards;
+      }
       h2 {
         margin-bottom: 10px;
         font-size: 17px;
@@ -29,7 +38,6 @@
         text-transform: uppercase;
       }
     }
-
     .menuIcon {
       position: fixed;
       top: 5vw;
@@ -39,7 +47,6 @@
       cursor: pointer;
       z-index: 3;
     }
-
     .headerNavigation {
       position: fixed;
       top: 0;
@@ -84,6 +91,14 @@
   }
   100% {
     top: 50%;
+  }
+}
+@keyframes moveTitleUnderline {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
   }
 }
 
