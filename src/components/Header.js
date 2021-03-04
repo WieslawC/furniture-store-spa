@@ -8,7 +8,7 @@ const Header = () => {
       <div className="headerText">
         <h1>Meblex</h1>
         <div className="titleUnderline"></div>
-        <h2>Najnowsze trędy</h2>
+        <h2>Najnowsze trendy</h2>
         <h3>Najlepsza jakość</h3>
       </div>
       <i className="fas fa-bars menuIcon"></i>

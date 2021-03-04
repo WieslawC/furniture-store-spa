@@ -13,6 +13,7 @@
       text-align: center;
       overflow: hidden;
       h1 {
+        font-size: 40px;
         padding-bottom: 10px;
         margin-bottom: 0px;
         letter-spacing: 2px;
@@ -29,12 +30,13 @@
         animation: moveTitleUnderline 1s 1s forwards;
       }
       h2 {
+        width: 100vw;
         margin-bottom: 10px;
-        font-size: 17px;
+        font-size: 25px;
         text-transform: uppercase;
       }
       h3 {
-        font-size: 15px;
+        font-size: 25px;
         text-transform: uppercase;
       }
     }

@@ -23,15 +23,6 @@ class App extends Component {
         );
       });
     });
-
-    //show elements on scroll
-    $(window).on("scroll", function () {
-      let scrollPosition = $(this).scrollTop();
-      $("div.content").each(function (item) {
-        let itemOffsetTop = $(this).offset().top;
-        if (itemOffsetTop - 600 < scrollPosition) $(this).addClass("active");
-      });
-    });
   }
 
   render() {
