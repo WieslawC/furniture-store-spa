@@ -1,4 +1,21 @@
-@media only screen and (min-width: 320px) {
+@keyframes moveHeaderText {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes moveTitleUnderline {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@media only screen and (min-width: 240px) {
   header {
     position: relative;
     height: 100vh;
@@ -30,13 +47,13 @@
         animation: moveTitleUnderline 1s 1s forwards;
       }
       h2 {
-        width: 100vw;
+        width: 100%;
         margin-bottom: 10px;
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
       }
       h3 {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
       }
     }
@@ -87,35 +104,34 @@
   }
 }
 
-@keyframes moveHeaderText {
-  0% {
-    top: 0;
-  }
-  100% {
-    top: 50%;
-  }
-}
-@keyframes moveTitleUnderline {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 0%;
-  }
-}
-
-/*
-@media only screen and (min-width: 320px) {
-}
- 
-@media only screen and (min-width: 600px) {
-}
-
-@media only screen and (min-width: 768px) {
-}
-
-@media only screen and (min-width: 992px) {
-}
-
 @media only screen and (min-width: 1200px) {
-} */
+  header {
+    .headerText {
+      h1 {
+        font-size: 60px;
+      }
+      .titleUnderline {
+        height: 4px;
+      }
+      h2,
+      h3 {
+        font-size: 40px;
+        letter-spacing: 1px;
+      }
+    }
+    .menuIcon {
+      top: 5%;
+      right: 5%;
+      font-size: 40px;
+    }
+    .headerNavigation {
+      ul {
+        li {
+          a {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
