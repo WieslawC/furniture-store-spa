@@ -7,3 +7,11 @@
 html {
   font-family: arial;
 }
+
+body {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: rgb(75, 75, 75);
+  color: white;
+}
