@@ -1,10 +1,10 @@
 @media only screen and (min-width: 240px) {
-  .mainKitchen {
+  .mainContainer {
     .kitchenSliderWrapper {
       display: flex;
       flex-direction: column;
       height: 100vh;
-      width: 100vw;
+      width: 100%;
       h4 {
         text-align: left;
         font-size: 30px;

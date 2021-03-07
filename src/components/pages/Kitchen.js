@@ -4,19 +4,16 @@ import "../../styles/Kitchen.scss";
 const Kitchen = () => {
   return (
     <>
-      <div className="mainKitchen">
-        <div className="kitchenSliderWrapper">
+      <div className="mainContainer">
+        <section className="kitchenSliderWrapper">
           <h4>Kuchnia twoich marzeń</h4>
-          <section className="kitchenSlider"></section>
-        </div>
-        <div className="kitchenAbout">
+        </section>
+        <section className="kitchenAboutWrapper">
           <h4>Informacje</h4>
-          <section className="kitchenSlider"></section>
-        </div>
-        <div className="kitchenContent">
+        </section>
+        <section className="kitchenContentWrapper">
           <h4>Treść</h4>
-          <section className="kitchenSlider"></section>
-        </div>
+        </section>
       </div>
     </>
   );
