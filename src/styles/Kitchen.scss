@@ -47,6 +47,89 @@
         height: 50vh;
       }
     }
+    .kitchenChooseBox {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      h4 {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-around;
+        align-items: center;
+        .chooseBoxImage {
+          background-position: center;
+          background-size: cover;
+          width: 90%;
+          height: 33%;
+          &:hover {
+            box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.69);
+            z-index: 3;
+          }
+        }
+        .chooseBoxImage:nth-of-type(1) {
+          background-image: url(../img/kitchen/kitchenChoosePanel1.jpg);
+        }
+        .chooseBoxImage:nth-of-type(2) {
+          background-image: url(../img/kitchen/kitchenChoosePanel2.jpg);
+        }
+        .chooseBoxImage:nth-of-type(3) {
+          background-image: url(../img/kitchen/kitchenChoosePanel3.jpg);
+        }
+      }
+    }
+    .kitchenConclusion {
+      height: 100vh;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mainContainer {
+    .kitchenSliderWrapper {
+      h4 {
+        font-size: 45px;
+      }
+    }
+    .kitchenAboutWrapper {
+      height: 100vh;
+      flex-direction: row;
+      align-items: center;
+      p {
+        padding: 40px 40px;
+        font-size: 25px;
+        letter-spacing: 1px;
+        width: 50%;
+      }
+      .image {
+        height: 70vh;
+        box-shadow: 0 0 20px 5px rgb(31, 31, 31);
+      }
+    }
+    .kitchenChooseBox {
+      flex-direction: column;
+      height: 100vh;
+      h4 {
+        font-size: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+      .container {
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        .chooseBoxImage {
+          flex-grow: 1;
+          height: 80%;
+        }
+      }
+    }
   }
 }
 
@@ -58,17 +141,13 @@
       }
     }
     .kitchenAboutWrapper {
-      height: 100vh;
-      flex-direction: row;
-      align-items: center;
       p {
-        padding: 40px 40px;
         font-size: 35px;
-        letter-spacing: 1px;
-        width: 50%;
       }
-      .image {
-        height: 70vh;
+    }
+    .kitchenChooseBox {
+      h4 {
+        font-size: 50px;
       }
     }
   }

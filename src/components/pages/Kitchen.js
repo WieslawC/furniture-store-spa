@@ -11,7 +11,6 @@ const Kitchen = () => {
             <div className="image"></div>
           </div>
         </section>
-
         <section className="kitchenAboutWrapper">
           <p>
             Nasze zaplecze kuchenne umożliwi Ci urządzenie dowolnego rozmiaru
@@ -21,6 +20,15 @@ const Kitchen = () => {
           </p>
           <div className="image"></div>
         </section>
+        <section className="kitchenChooseBox">
+          <h4>Wybierz swój styl</h4>
+          <div className="container">
+            <div className="chooseBoxImage"></div>
+            <div className="chooseBoxImage"></div>
+            <div className="chooseBoxImage"></div>
+          </div>
+        </section>
+        <section className="kitchenConclusion"></section>
       </div>
     </>
   );
