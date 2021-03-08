@@ -1,18 +1,74 @@
 @media only screen and (min-width: 240px) {
   .mainContainer {
     .kitchenSliderWrapper {
-      display: flex;
-      flex-direction: column;
+      position: relative;
       height: 100vh;
       width: 100%;
       h4 {
-        text-align: left;
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        color: rgb(46, 46, 46);
         font-size: 30px;
         padding: 30px 10px;
+        z-index: 2;
       }
-      .kitchenSlider {
-        flex-grow: 1;
-        background-color: orange;
+      .imageContainer {
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        .image {
+          width: 100%;
+          height: 100vh;
+          background-image: url(../img/kitchen/kitchenMainImage.jpg);
+          background-position: center;
+          background-size: cover;
+          transition: 10s linear;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+    .kitchenAboutWrapper {
+      display: flex;
+      flex-direction: column;
+      p {
+        padding: 40px 10px;
+        font-size: 20px;
+        letter-spacing: 1px;
+      }
+      .image {
+        background-image: url(../img/kitchen/olive-oil-1412361_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mainContainer {
+    .kitchenSliderWrapper {
+      h4 {
+        font-size: 60px;
+      }
+    }
+    .kitchenAboutWrapper {
+      height: 100vh;
+      flex-direction: row;
+      align-items: center;
+      p {
+        padding: 40px 40px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        width: 50%;
+      }
+      .image {
+        height: 70vh;
       }
     }
   }

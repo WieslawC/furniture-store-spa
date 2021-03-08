@@ -6,13 +6,20 @@ const Kitchen = () => {
     <>
       <div className="mainContainer">
         <section className="kitchenSliderWrapper">
-          <h4>Kuchnia twoich marzeń</h4>
+          <h4>Poznaj kuchnię twoich marzeń</h4>
+          <div className="imageContainer">
+            <div className="image"></div>
+          </div>
         </section>
+
         <section className="kitchenAboutWrapper">
-          <h4>Informacje</h4>
-        </section>
-        <section className="kitchenContentWrapper">
-          <h4>Treść</h4>
+          <p>
+            Nasze zaplecze kuchenne umożliwi Ci urządzenie dowolnego rozmiaru
+            pomieszczenia, a dobierając i dostosowując jeden z gotowych
+            kuchennych schematów, będziesz miał możliwość uniknięcia bezkresnego
+            koła dobierania mebli
+          </p>
+          <div className="image"></div>
         </section>
       </div>
     </>
