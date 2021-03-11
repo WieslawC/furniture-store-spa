@@ -47,6 +47,21 @@
         height: 50vh;
       }
     }
+    .kitchenSlider {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+      .imageContainer {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        img {
+          min-width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
     .kitchenConclusion {
       height: 100vh;
     }
