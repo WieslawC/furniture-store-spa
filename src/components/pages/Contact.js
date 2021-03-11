@@ -21,9 +21,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="mainContact">
-        <h4>Skontaktuj się z nami</h4>
+        <h4>Skontaktuj się z nami i odwiedz nas w naszej siedzibie</h4>
         <section className="contactLocaly">
-          <h5>Odwiedz nas w naszej siedzibie</h5>
           <div className="office">
             <div className="info">
               <p>ul. Gdańska 118</p>

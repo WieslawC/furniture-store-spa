@@ -49,8 +49,13 @@
     }
     .kitchenSlider {
       width: 100%;
-      margin: auto;
       overflow: hidden;
+      h4 {
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0;
+        letter-spacing: 1;
+      }
       .imageContainer {
         width: 100%;
         height: 80vh;
@@ -63,7 +68,17 @@
       }
     }
     .kitchenConclusion {
-      height: 100vh;
+      margin-top: 40px;
+      h4 {
+        font-size: 30px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+      }
+      p {
+        padding: 0 20px;
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
     }
   }
 }
@@ -82,12 +97,29 @@
       p {
         padding: 40px 40px;
         font-size: 25px;
-        letter-spacing: 1px;
         width: 50%;
+        background-color: rgb(221, 221, 221);
+        color: rgb(46, 46, 46);
       }
       .image {
         height: 70vh;
         box-shadow: 0 0 20px 5px rgb(31, 31, 31);
+      }
+    }
+    .kitchenSlider {
+      h4 {
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 40px;
+      }
+    }
+    .kitchenConclusion {
+      h4 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 30px;
       }
     }
   }
