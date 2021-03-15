@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/furniture-store-spa/static/css/main.f28f33d5.chunk.css",
-    "main.js": "/furniture-store-spa/static/js/main.b42fb639.chunk.js",
-    "main.js.map": "/furniture-store-spa/static/js/main.b42fb639.chunk.js.map",
+    "main.css": "/furniture-store-spa/static/css/main.dcda8d27.chunk.css",
+    "main.js": "/furniture-store-spa/static/js/main.e399a63a.chunk.js",
+    "main.js.map": "/furniture-store-spa/static/js/main.e399a63a.chunk.js.map",
     "runtime-main.js": "/furniture-store-spa/static/js/runtime-main.076833c4.js",
     "runtime-main.js.map": "/furniture-store-spa/static/js/runtime-main.076833c4.js.map",
     "static/js/2.e23325f9.chunk.js": "/furniture-store-spa/static/js/2.e23325f9.chunk.js",
     "static/js/2.e23325f9.chunk.js.map": "/furniture-store-spa/static/js/2.e23325f9.chunk.js.map",
     "index.html": "/furniture-store-spa/index.html",
-    "static/css/main.f28f33d5.chunk.css.map": "/furniture-store-spa/static/css/main.f28f33d5.chunk.css.map",
+    "static/css/main.dcda8d27.chunk.css.map": "/furniture-store-spa/static/css/main.dcda8d27.chunk.css.map",
     "static/js/2.e23325f9.chunk.js.LICENSE.txt": "/furniture-store-spa/static/js/2.e23325f9.chunk.js.LICENSE.txt",
     "static/media/Contact.scss": "/furniture-store-spa/static/media/architecture-5999913_1280.63c4a259.jpg",
     "static/media/Home.scss": "/furniture-store-spa/static/media/sectionShowcaseBGI.fc4d72f3.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.076833c4.js",
     "static/js/2.e23325f9.chunk.js",
-    "static/css/main.f28f33d5.chunk.css",
-    "static/js/main.b42fb639.chunk.js"
+    "static/css/main.dcda8d27.chunk.css",
+    "static/js/main.e399a63a.chunk.js"
   ]
 }
