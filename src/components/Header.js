@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <div className="headerText">
-        <h1>Meblex</h1>
+        <h1>Mebling</h1>
         <div className="titleUnderline"></div>
         <h2>Najnowsze trendy</h2>
         <h3>Najlepsza jakość</h3>

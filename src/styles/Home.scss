@@ -89,6 +89,7 @@ section {
         background-size: cover;
         background-repeat: no-repeat;
         filter: brightness(40%);
+        cursor: pointer;
       }
       .image.active {
         flex-grow: 1;
