@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/furniture-store-spa/static/css/main.f28f33d5.chunk.css",
+    "main.js": "/furniture-store-spa/static/js/main.83a9d8d0.chunk.js",
+    "main.js.map": "/furniture-store-spa/static/js/main.83a9d8d0.chunk.js.map",
+    "runtime-main.js": "/furniture-store-spa/static/js/runtime-main.076833c4.js",
+    "runtime-main.js.map": "/furniture-store-spa/static/js/runtime-main.076833c4.js.map",
+    "static/js/2.e23325f9.chunk.js": "/furniture-store-spa/static/js/2.e23325f9.chunk.js",
+    "static/js/2.e23325f9.chunk.js.map": "/furniture-store-spa/static/js/2.e23325f9.chunk.js.map",
+    "index.html": "/furniture-store-spa/index.html",
+    "static/css/main.f28f33d5.chunk.css.map": "/furniture-store-spa/static/css/main.f28f33d5.chunk.css.map",
+    "static/js/2.e23325f9.chunk.js.LICENSE.txt": "/furniture-store-spa/static/js/2.e23325f9.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/furniture-store-spa/static/media/architecture-5999913_1280.63c4a259.jpg",
+    "static/media/Home.scss": "/furniture-store-spa/static/media/sectionShowcaseBGI.fc4d72f3.jpg",
+    "static/media/kitchenChoosePanel1.d362d6b3.jpg": "/furniture-store-spa/static/media/kitchenChoosePanel1.d362d6b3.jpg",
+    "static/media/kitchenChoosePanel2.5386c1f2.jpg": "/furniture-store-spa/static/media/kitchenChoosePanel2.5386c1f2.jpg",
+    "static/media/kitchenChoosePanel3.cf23043e.jpg": "/furniture-store-spa/static/media/kitchenChoosePanel3.cf23043e.jpg",
+    "static/media/Kitchen.scss": "/furniture-store-spa/static/media/olive-oil-1412361_1280.fe85d344.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.076833c4.js",
+    "static/js/2.e23325f9.chunk.js",
+    "static/css/main.f28f33d5.chunk.css",
+    "static/js/main.83a9d8d0.chunk.js"
+  ]
+}
